@@ -1,4 +1,6 @@
-public class Rating {
+package models;
+
+public class Rating implements Comparable<Rating>{
     
     private String item;
     private double value;

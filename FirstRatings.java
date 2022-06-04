@@ -2,6 +2,7 @@ import edu.duke.*;
 import java.util.*;
 import org.apache.commons.csv.*;
 
+import models.*;
 
 public class FirstRatings {
     public ArrayList<Movie> loadMovies(String filename){
@@ -10,7 +11,7 @@ public class FirstRatings {
         FileResource fr = new FileResource(filename);
         for (CSVRecord record : fr.getCSVParser()){
             Movie new_mov = new Movie(
-                Integer.parseInt(record.get("id")), 
+                record.get("id"), 
                 record.get("title"),
                 Integer.parseInt(record.get("year")),
                 record.get("genre"), 

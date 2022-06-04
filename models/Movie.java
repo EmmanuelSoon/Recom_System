@@ -1,6 +1,8 @@
+package models;
+
 public class Movie {
     
-    private int id;
+    private String id;
     private String title;
     private int year;
     private String genres;
@@ -10,7 +12,7 @@ public class Movie {
     private String poster;
 
     //contructor 
-    public Movie(int id, String title, 
+    public Movie(String id, String title, 
     int year, String genres, String director, 
     String country, int minutes, String poster) {
         this.id = id;
@@ -25,7 +27,7 @@ public class Movie {
 
     //Getters 
 
-    public int getId(){
+    public String getId(){
         return this.id;
     }
 

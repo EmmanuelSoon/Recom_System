@@ -1,3 +1,5 @@
+package models;
+
 import java.util.ArrayList;
 
 public class Rater {
@@ -24,7 +26,7 @@ public class Rater {
     public double getRating(String item){
         double curr_rating = -1;
         for (Rating curr : this.myRatings){
-            if(curr.getItem() == item){
+            if(curr.getItem().equals(item)){
                 curr_rating = curr.getValue();
             }
         }
