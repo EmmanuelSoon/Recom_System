@@ -8,5 +8,6 @@ public interface Rater {
     String getID();
     int numRating();
     ArrayList<String> getItemsRated();
+    public boolean hasRating(String item);
 
 }

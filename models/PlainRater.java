@@ -45,4 +45,14 @@ public class PlainRater implements Rater {
         return currList;
     }
 
+    public boolean hasRating(String item) {
+        for(int k=0; k < myRatings.size(); k++){
+            if (myRatings.get(k).getItem().equals(item)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+
 }

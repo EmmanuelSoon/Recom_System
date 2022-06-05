@@ -42,5 +42,16 @@ public class EfficientRater implements Rater {
         
         return currList;
     }
+    
+    public boolean hasRating(String item) {
+        if (myRatings.containsKey(item))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 
 }
