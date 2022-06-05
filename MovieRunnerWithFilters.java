@@ -6,7 +6,7 @@ import Filters.*;
 public class MovieRunnerWithFilters {
     public static void printAverageRatings(){
 
-        ThirdRating tr = new ThirdRating("Data/ratings.csv");
+        ThirdRatings tr = new ThirdRatings("Data/ratings.csv");
         System.out.println("number of raters: " + tr.getRaterSize());  
         
         MovieDatabase.initialize("Data/ratedmoviesfull.csv");
@@ -29,7 +29,7 @@ public class MovieRunnerWithFilters {
         System.out.println("Number of movies: " + MovieDatabase.size());
 
 
-        ThirdRating tr = new ThirdRating("Data/ratings.csv");
+        ThirdRatings tr = new ThirdRatings("Data/ratings.csv");
         System.out.println("number of raters: " + tr.getRaterSize());  
 
         ArrayList<Rating> ratingListFull = tr.getAverageRatings(minimalRaters);

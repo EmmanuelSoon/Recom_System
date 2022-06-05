@@ -18,6 +18,15 @@ public class Tester {
         // MovieRunnerWithFilters.getAverageRatingByDirectors(4, "Clint Eastwood,Joel Coen,Martin Scorsese,Roman Polanski,Nora Ephron,Ridley Scott,Sydney Pollack");
         // MovieRunnerWithFilters.getAverageRatingByYearAFterAndGenre(8, 1990, "Drama");
         // MovieRunnerWithFilters.getAverageRatingByDirectorsAndMinutes(3, "Clint Eastwood,Joel Coen,Tim Burton,Ron Howard,Nora Ephron,Sydney Pollack", 90, 180);
+    
+    
+        //Fourth Assignment
+        // MovieRunnerSimilarRatings.printSimilarRatings();
+        // MovieRunnerSimilarRatings.printSimilarRatingsByGenre();
+        // MovieRunnerSimilarRatings.printSimilarRatingsByDirector();
+        // MovieRunnerSimilarRatings.printSimilarRatingsByGenreAndMinutes();
+        MovieRunnerSimilarRatings.printSimilarRatingsByYearAfterAndMinutes();
+
     }
     
 }

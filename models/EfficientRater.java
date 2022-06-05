@@ -33,7 +33,13 @@ public class EfficientRater implements Rater {
     }
 
     public ArrayList<String> getItemsRated(){
-        ArrayList<String> currList = (ArrayList<String>) this.myRatings.keySet();
+        ArrayList<String> currList = new ArrayList<String>();
+        
+        for (String id : myRatings.keySet())
+        {
+            currList.add(myRatings.get(id).getItem());
+        }
+        
         return currList;
     }
 

@@ -3,14 +3,14 @@ package models;
 import Filters.*;
 import java.util.*;
 
-public class ThirdRating {
+public class ThirdRatings {
     private ArrayList<Rater> myRaters;
 
-    public ThirdRating() {
+    public ThirdRatings() {
         this("rating.csv");
     }
 
-    public ThirdRating(String ratingsFile) {
+    public ThirdRatings(String ratingsFile) {
         FirstRatings FR = new FirstRatings();
         this.myRaters = FR.loadRatings(ratingsFile);
     }
