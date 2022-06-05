@@ -1,8 +1,8 @@
+package models;
 import edu.duke.*;
 import java.util.*;
 import org.apache.commons.csv.*;
 
-import models.*;
 
 public class FirstRatings {
     public ArrayList<Movie> loadMovies(String filename){
@@ -43,7 +43,7 @@ public class FirstRatings {
             }
 
             if(!check){
-                Rater new_Rater = new Rater(raterID);
+                Rater new_Rater = new EfficientRater(raterID);
                 raterList.add(new_Rater);
             }
             

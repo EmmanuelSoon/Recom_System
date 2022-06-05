@@ -1,6 +1,6 @@
+package models;
 import java.util.ArrayList;
 
-import models.*;
 
 public class SecondRatings {
     private ArrayList<Movie> myMovies;
