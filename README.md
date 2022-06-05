@@ -1,5 +1,5 @@
-# Recom_System
-Coursera Java Capstone (Recommendation System)
+# Coursera Java Capstone (Recommendation System)
+URL: https://www.coursera.org/learn/java-programming-recommender/home/welcome
 
 Things that needs to be done.
 1. clean up the code and filter into subfolders
